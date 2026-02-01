@@ -19,7 +19,7 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['http://localhost:5173'],
+    'allowed_origins' => ['http://localhost:5173', 'https://inventory-system-silk-theta.vercel.app'],
 
     'allowed_origins_patterns' => ['/localhost:5173$/', '/127\.0\.0\.1:5173$/'],
 
