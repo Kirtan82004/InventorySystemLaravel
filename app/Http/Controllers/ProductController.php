@@ -26,6 +26,13 @@ class ProductController extends Controller
         ]);
     }
 
+    public function all()
+{
+    return response()->json(
+        Product::with('category')->get()
+    );
+}
+
     // CREATE PRODUCT
     public function store(Request $request)
 {
